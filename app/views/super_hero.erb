@@ -6,7 +6,7 @@
   <% 3.times do |index|%>
     <% index+=1 %>
     <p>Hero <%= index %></p>
-    Hero's name: <input type="text" name="heroes_<%index%>_name"><br/>
+    Hero's name: <input type="text" id="heroes_<%index%>_name" name="heroes[]"><br/>
     
   <% end %>
   <input type="submit" name="submit" value="submit">
