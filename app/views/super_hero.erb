@@ -4,6 +4,7 @@
   <p>Team Name: <input type="text" name="team_name"></p>
   <p>Team Motto: <input type="text" name="team_motto"></p>
   <% 3.times do |index|%>
+    <% index+=1 %>
     <p>Hero <%= index+1 %></p>
   <% end %>
   <input type="submit" name="submit" value="submit">
