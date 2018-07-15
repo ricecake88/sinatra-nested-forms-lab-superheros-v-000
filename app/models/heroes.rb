@@ -1,4 +1,4 @@
 class Hero
   
-  def initialize
+  def initialize(:Args)
 end
