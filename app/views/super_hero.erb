@@ -5,7 +5,7 @@
   <p>Team Motto: <input type="text" name="team_motto"></p>
   <% 3.times do |index|%>
     <% index+=1 %>
-    <p>Hero <%= index %></p>
+    <h2>Hero <%= index %></h2>
     Hero's Name: <input type="text" id="heroes_<%index%>_name" name="team[heroes][][name]"><br/>
     Hero's Power: <input type="text" id="heroes_<%index%>_power" name="team[heroes][][power]"><br/>
     Hero's Biography: <input type="text" id="heroes_<%index%>_biography" name="team[heroes][][bio]"><br/>
