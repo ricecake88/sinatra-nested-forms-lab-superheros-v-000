@@ -9,6 +9,7 @@ class App < Sinatra::Base
     end
     
     post '/teams' do
+      @member1_name = params[:team]
       erb :team
     end
     
